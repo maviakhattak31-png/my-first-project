@@ -5,4 +5,4 @@ and served my own web page from it.
 
 Files:
 - index.html : my web page
-- linux-notes.md : my Linux command notesmy first cloud project
+- linux-notes.md : my Linux command notes
