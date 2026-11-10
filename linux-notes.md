@@ -15,3 +15,12 @@
 - nginx : a program that hands out my web page
 - /var/www/html/index.html : the page nginx shows
 
+# Docker
+- docker ps -a : lists my containers
+- docker run -d -p 8081:80 --name my-nginx nginx : runs nginx in a container
+- docker stop my-nginx : stops it
+- docker rm my-nginx : removes it
+- Run my page in Docker (change 8082 if the port is busy):
+  docker run -d -p 8082:80 --name my-page -v "$(pwd)":/usr/share/nginx/html:ro nginx
+- Stop it: docker stop my-page
+- Remove it: docker rm my-page
