@@ -24,3 +24,10 @@
   docker run -d -p 8082:80 --name my-page -v "$(pwd)":/usr/share/nginx/html:ro nginx
 - Stop it: docker stop my-page
 - Remove it: docker rm my-page
+
+# Python
+- python3 file.py : runs a Python script
+- check_site.py : checks if one website is up or down
+- check_sites.py : checks a list of websites and prints UP or DOWN for each
+- try / except : tries something, and does something else if it fails
+- for url in urls : repeats the same steps for each item in a list
