@@ -31,6 +31,8 @@
 - check_sites.py : checks a list of websites and prints UP or DOWN for each
 - try / except : tries something, and does something else if it fails
 - for url in urls : repeats the same steps for each item in a list
+- monitor.py : reads website addresses from sites.txt and prints UP or DOWN for each
+- open("file") : opens a file so Python can read it
 
 # Deploying
 - git clone <address> : downloads a project from GitHub to the server
