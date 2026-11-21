@@ -25,3 +25,5 @@ Files:
 - nginx is a program on the server. It hands out the web page I choose.
 - SSH keys let me log in without a password.
 - Git and GitHub let me move my work from my PC to a server.
+- site-monitor.json : an n8n workflow that checks a website every 5 minutes and sends the result to an UP or DOWN branch.
+
